@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cluster": "^0.7.7",
     "crypto-js": "^4.0.0",
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "os": "^0.1.1"
   },
   "type": "module"
 }

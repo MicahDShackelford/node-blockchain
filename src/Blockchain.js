@@ -68,8 +68,8 @@ export default class Blockchain {
             // console.log(newBlock)
         }  
 
+        console.log(newBlock)
         this.totalChainQuantity += newBlock.data.quantity
-
         // Push the new block
         this.blockchain.push(newBlock)
 
